@@ -164,3 +164,54 @@ h1, h2, h3, h4, h5, h6, p, li, ul, a {
 .meet-a-div {
     padding-top: 30px;
 }
+
+/* bottles */
+.bottles {
+    height: 835px;
+    min-width: 1440px;
+    width: 100%;
+    background: #f6f4ec;
+}
+.bottles__inner {
+    padding: 38px 70px 0;
+}
+.bottles-h2 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 170%;
+    text-transform: capitalize;
+    text-align: center;
+    color: #b45f4d;
+}
+.bottles-cards {
+    display: flex;
+    gap: 80px;
+    padding-top: 45px;
+
+}
+.bottles-cards-a {
+    text-decoration: none;
+    transition: .2s;
+}
+.bottles-cards-a:hover {
+    font-weight: 600;
+    color: #b2412b;
+}
+.bottles-cards-img {
+}
+.bottles-cards-h4 {
+    font-size: 18px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #b45f4d;
+    text-decoration: none;
+    padding-top: 7px;
+}
+.bottles-cards-p {
+    font-size: 16px;
+    line-height: 100%;
+    text-decoration: none;
+    color: #b45f4d;
+    padding-top: 6px;
+}
