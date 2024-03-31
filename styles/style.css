@@ -92,3 +92,36 @@ h1, h2, h3, h4, h5, h6, p, li, ul, a {
     color: #b4604d;
     margin-left: -12px;
 }
+
+/* main  */
+.main {
+    height: 435px;
+    min-width: 1440px;
+    width: 100%;
+    background-image: url(../img/main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main__inner {
+    padding-top: 331px;
+}
+.main-btn {
+    display: block;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 169%;
+    color: #fff;
+    text-decoration: none;
+
+    width: 128px;
+    height: 48px;
+    background: #b45f4d;
+    transition: .2s;
+    margin: 0 auto;
+    padding-top: 9px;
+    padding-left: 21px;
+}
+.main-btn:hover {
+    opacity: 80%;
+}
