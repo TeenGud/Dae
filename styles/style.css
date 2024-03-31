@@ -258,3 +258,64 @@ h1, h2, h3, h4, h5, h6, p, li, ul, a {
     font-weight: 600;
     color: #ffffff;
 }
+
+/* dae  */
+.dae {
+    min-height: 1069px;
+    background: #f1d3b9;
+    margin-top: 46px;
+
+}
+.dae__inner {
+    padding-left: 183px;
+    padding-top: 61px;
+}
+.dae-div {
+    width: 632px;
+    height: 947px;
+    background-image: url(../img/dae.png);
+    position: relative;
+    z-index: 0;
+
+}
+.small-card {
+    width: 518px;
+    height: 582px;
+    background: #f8f8f8;
+    position: absolute;
+    z-index: 1;
+    top: 224px;
+    right: -468px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 52px;
+
+}
+.small-card-h2 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 192%;
+    color: #b45f4d;
+    text-align: center;
+    }
+.small-card-p {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 160%;
+    color: #b45f4d;
+    padding-top: 23px;
+    padding-bottom: 41px;
+}
+.small-card-a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #b45f4d;
+    text-decoration: none;
+    transition: .2s;
+}
+.small-card-a:hover {
+    font-weight: 600;
+    color: #bb452d;
+}
