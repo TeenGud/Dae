@@ -125,3 +125,42 @@ h1, h2, h3, h4, h5, h6, p, li, ul, a {
 .main-btn:hover {
     opacity: 80%;
 }
+
+/* meet  */
+.meet {
+    height: 304px;
+    min-width: 1440px;
+    width: 100%;
+    background: #a9ae8d;
+}
+.meet__inner {
+    padding-left: 70px;
+    padding-top: 69px;
+}
+.meet-p1 {
+    font-size: 18px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #f6f4ec;
+}
+.meet-p2 {
+    font-size: 33px;
+    line-height: 194%;
+    color: #f6f4ec;
+    padding-top: 14px;
+}
+.meet-a {
+    font-size: 16px;
+    line-height: 170%;
+    color: #f6f4ec;
+    text-decoration: none;
+    transition: .2s;
+}
+.meet-a:hover {
+    font-weight: 600;
+    color: #ffffff;
+
+}
+.meet-a-div {
+    padding-top: 30px;
+}
