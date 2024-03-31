@@ -201,6 +201,7 @@ h1, h2, h3, h4, h5, h6, p, li, ul, a {
 .bottles-cards-img {
 }
 .bottles-cards-h4 {
+    font-weight: 400;
     font-size: 18px;
     line-height: 140%;
     text-transform: uppercase;
@@ -214,4 +215,46 @@ h1, h2, h3, h4, h5, h6, p, li, ul, a {
     text-decoration: none;
     color: #b45f4d;
     padding-top: 6px;
+}
+
+/* desert */
+.desert {
+}
+.desert__inner {
+    padding: 0 110px;
+}
+.desert-img {
+    margin-top: 23px;
+    z-index: 0;
+    position: relative;
+}
+.desert-block {
+    height: 92px;
+    width: 1220px;
+    background: #df9b7a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -96px;
+    z-index: 1;
+    position: absolute;
+    padding: 0 30px;
+}
+.desert-h5 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #f6f4ec;
+}
+.desert-a {
+    font-size: 18px;
+    line-height: 160%;
+    color: #f6f4ec;
+    transition: .2s;
+    text-decoration: none;
+}
+.desert-a:hover {
+    font-weight: 600;
+    color: #ffffff;
 }
